@@ -4,72 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Alime13</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
-  <script src=" http://cdnjs.cloudflare.com/ajax/libs/flot/0.7/jquery.flot.min.js"></script>
-  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-  <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        
+    <title>Alime11</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="pattern"></div>
+  <div class="gradient">
+    <div class="container">
         <div class="nav">
-            <div class="logo">
-               <img src="images/a.jpg" alt=""  width="75px" height="50px">
-            </div>
-            <div class="menu">
                 <ul>
-                    <li>Home</li>
-                    <li>Product</li>
-                    <li>Forum</li>
-                    <li>Contact</li>
+                        <li><a href="#">
+                            <img src="image/1.jpg" alt="" >
+                        </a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="autopart.html">Auto Part</a></li>
+                        <li class="dropdown">
+                          <a href="javascript:void(0)" class="dropbtn">Brake Pads</a>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                        </li>
+                        <li><a href="#news">Bonnet</a></li>
+                        <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropbtn">More</a>
+                                <div class="dropdown-content">
+                                  <a href="#">Link 1</a>
+                                  <a href="#">Link 2</a>
+                                  <a href="#">Link 3</a>
+                                </div>
+                              </li>
 
-                </ul>
-            </div>
-            <div class="cart">
-                    <i class="fas fa-cart-plus"></i></div>
+                      </ul>  
         </div>
-            <div class="box-1"></div>
-            <div class="box-2"></div>
-            <div class="box-3"></div>
-            <div class="box-4"></div>
-            <div class="box-5"></div>
-            <div class="box-6"></div>
-            <div class="tittle-2">
-                Everything
-            </div>
-            <div class="runner image">
-                <img src="images/111.png" alt=""  width="38%">
-            </div>
-            <div class="content">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis magni, aliquam, nihil aliquid vero natus iure tempora dignissimos vitae officia modi, doloremque error sed non reiciendis explicabo corporis ab ad!</p>
-           <button>Shop NOW</button>
-            </div>
-            <div class="media">
-                <ul>
-                   <li><i class="fab fa-facebook-f"></i></li>
-                   <li><i class="fab fa-twitter"></i></li>
-                   <li><i class="fab fa-google"></i></li>   
-
-                </ul>
-            </div>
-    </div>
-    <script type="text/javascript">
-        TweenMax.to(".tittle-2",2,{
-            x:30,
-            opacity:1,
-            ease:Expo.easeInout
-        });
-        TweenMax.to(".runner",2,{
-            delay:1.6,
-            x:-80,
-            opacity:1,
-            ease:Expo.easeInout
-        });
-
-    </script>
+        </div>
+       
 </body>
 </html>
